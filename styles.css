@@ -1,0 +1,228 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    height: 110px;
+    position: relative;
+    flex-wrap: wrap;
+}
+.header p{
+    position: absolute;
+    left: 156px;
+    top: 40px;
+    font-size: 20px;
+}
+
+.header strong a:hover{
+    opacity: 80%;
+}
+
+.header span a:hover{
+    text-decoration: underline;
+}
+
+.header p a{
+    text-decoration: none;
+    color: white;
+}
+.header .submit button{
+    position: absolute;
+    width: 290px;
+    height: 62px;
+    border: none;
+    border: 1px white solid;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    top: 24px;
+    right: 306px;
+    font-size: 30px;
+}
+.header .sign button{
+    width: 175px;
+    height: 62px;
+    border: none;
+    background-color: #4c60d3;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    top: 24px;
+    right: 110px;
+    font-size: 30px;
+}
+
+.header .sign button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* HELP */
+
+.help{
+    background-color: #dadbf0;
+    height: 496px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.help h1{
+    font-size: 62px;
+}
+.help input{
+    width: 900px;
+    height: 80px;
+    border-radius: 4px;
+    margin-top: 50px;
+    position: relative;
+}
+
+input:hover{
+    border: none;
+    border: 1px #5573d0 solid;
+}
+
+.help input::placeholder{
+    font-size: 22px;
+    padding-left: 20px;
+}
+.help a{
+    font-size: 35px;
+    position: absolute;
+    top: 395px;
+    right: 340px;
+    text-decoration: none;
+    color: black;
+}
+
+.help a:hover{
+    color: #5573d0;
+}
+
+/* MAIN */
+
+.six{
+    display: flex;
+    flex-direction: column;
+    margin: 158px 158px 0 158px;
+    font-family: "Archivo", sans-serif;
+}
+
+.six .two{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 84px;
+}
+
+.six .one{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px;
+    width: 700px;
+}
+
+.six .one .text{
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.six .one .text h2{
+    padding-bottom: 20px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.six .one .text a{
+    text-decoration: none;
+    color: #5573d0;
+}
+
+.six .one .text a:hover{
+    text-decoration: underline;
+}
+
+.six img{
+    width: 100px;
+    height: 100px;
+}
+
+/* FOOTER */
+
+.footer{
+    height: 422px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer h2{
+    margin-bottom: 20px;
+}
+
+.footer .first{
+    margin: 64px 0 0 119px;
+}
+.footer  .second{
+    margin: 64px 0px 0 167px;
+}
+.footer .third{
+    margin: 64px 0 0 154px;
+}
+.footer .forth{
+    margin: 64px 0 0 136px;
+}
+.footer .fifth{
+    position: absolute;
+    bottom: 200px;
+    right: 477px;
+    font-size: 14px;
+}
+.footer .sixth{
+    font-size: 20px;
+    position: absolute;
+    bottom: 92px;
+    right: 120px;
+    margin-top: 20px;
+}
+.footer button{
+    width: 80px;
+    height: 40px;
+    color: white;
+    font-weight: 700;
+    background-color: #4c5fd5;
+    border: none;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.footer button a:hover{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+    gap: 25px;
+}
